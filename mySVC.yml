@@ -1,0 +1,14 @@
+apiversion: v1
+kind: Service
+metadata: 
+    name: maha-svc
+    labels:  
+      app: javaappppppppppppp 
+spec:
+  type: NodePort
+  ports: 
+  - port: 80
+    nodeport: 30001
+    portocol: TCP
+  selecter: 
+    app: javaappppppppppppp     
