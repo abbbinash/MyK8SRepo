@@ -1,9 +1,9 @@
-apiVersion: apps/v1
+apiVersion: v1
 kind: Service
 metadata: 
-    name: maha-svc
-    labels:  
-      app: javaappppppppppppp 
+  name: maha-svc
+  labels:  
+    app: javaappppppppppppp 
 spec:
   type: NodePort
   ports: 
