@@ -1,0 +1,19 @@
+apiversion: v1
+
+kind: ReplicationController
+metadata:
+  name: my-rc
+spec:
+  replicas: 2
+  selector:
+    app: javaappppppppppppp 
+  template:
+    metadata:
+      abels:
+        app: javaappppppppppppp 
+    spec:
+      containers:
+        - name: nginxcontainer
+          image: nginx
+          ports:
+            - containerPort: 80
