@@ -3,8 +3,7 @@ kind: Service
 metadata:
   name: maha-svc
   labels:
-    app: javaappppppppppppp
-    
+    app: javaappppppppppppp    
 spec:
   type: NodePort
   ports:
