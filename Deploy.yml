@@ -3,16 +3,16 @@ kind: Deployment
 metadata:
   name: myjavaapp-deploy
   labels:
-    app: myjavaapp
+    app: myfirstapp
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: myjavaapp
+      app: myfirstapp
   template:
     metadata:
       labels:
-        app: myjavaapp
+        app: myfirstapp
     spec:
       containers:
       - name: myjavaapp-container
