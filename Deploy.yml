@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: myjavaapp-container
-        image: abbbinash/myapplication:1
+        image: abbbinash/myjavaapppp:2
         ports:
         - containerPort: 8080
